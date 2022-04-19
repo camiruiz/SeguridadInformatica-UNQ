@@ -1,0 +1,56 @@
+/* tabla con estilo css*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: 15%;
+    color: rgb(0, 68, 255);
+}
+
+p.titulo {
+	font-family: monospace;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+}
+
+form {
+   margin: 0 auto; /* Centramos el formulario */
+   width: 300px;   /* Sin ancho no podemos centrar el formulario */
+   background-color: white; /* Color blanco para el formulario */
+   padding: 20px; /* separamos los bordes del form del resto de elementos */
+   border-radius: 10px; /* Redondeamos los bordes del form */
+   background-color:rgb(117, 197, 135); /*Color de fondo*/
+}
+
+input, textarea {
+    padding: 5px; /* Separamos la letra del interior (contenido) en los inputs de los bordes */
+}
+
+label {
+    display: block; /* Ahora los inputs quedan debajo de los label */
+    padding: 5px; /* Separando espacios internos */
+}
+
+li {
+    margin: 10px; /* dando márgenes a todos los elementos de la lista */
+}
+
+.btn{
+    margin-top: 20px; /* Damos un margen individual para el contenedor del botón */
+}
+
+
+button {
+    width: 40%;
+    margin-left: 15%;
+    background-color: rgb(96, 160, 219);
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none; /*Quitar los puntos de la lista*/
+}
+
+}
